@@ -8,7 +8,7 @@ ___
 
 1. [Image Modifications](#image-modifications)
 2. [Code](#code)
-3. [Archived Source Code](#archived-source-code)
+3. [All Versions Source Code](#all-versions-source-code)
 4. [License](#license)
 
 ___
@@ -74,7 +74,7 @@ As of right now, `IllegalExtensionError`'s are raised in the following situation
 
 ___
 
-### Archived Source Code
+### All Versions Source Code
 
 Archived source code can be found in the `All Versions` folder. The source code file has been renamed with a suffix stating its version. For example, the source code for Version 1.0 would be `modifier_1.0.py`. In the distribution releases, the file is not named this way, and stays `modifier.py`.
 
@@ -502,4 +502,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 9:02PM</sub>
+<sub>This page was last edited on 02/04/21 @ 9:03PM</sub>
