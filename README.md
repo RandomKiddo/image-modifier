@@ -1,6 +1,6 @@
 # Image Modifier
 
-A python implementation of the Pillow (PIL) library that modifies images
+A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
 #### The Current Stable Release Is Version 1.0: [[V1.0]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.0)
 
