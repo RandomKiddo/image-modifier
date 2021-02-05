@@ -2,9 +2,9 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.0: [[V2.0]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.0)
+#### The Current Stable Release Is Version 2.1: [[V2.1]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.1)
 
-:exclamation: PNG Support Is Here In Version 2.0! DeprecationWarnings have been placed for `to_jpeg`, `IllegalExtensionError`, and `is_compatible` in the module; They will be removed soon!
+:exclamation: PNG Support Is Here In Version 2.0 And Up! DeprecationWarnings have been placed for `to_jpeg`, `IllegalExtensionError`, and `is_compatible` in the module; They will be removed soon!
 
 ___
 
@@ -39,6 +39,10 @@ Average Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testaverage.jpg" height="250" width="307" alt="Average" /> <br>
 Halftone Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testhalftone.jpg" height="250" width="307" alt="Halftone" /> <br>
+Primary Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testprimary.jpg" height="250" width="307" alt="Primary" /> <br>
+Dither Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdither.jpg" height="250" width="307" alt="Dither" /> <br>
 
 ___
 
@@ -65,6 +69,8 @@ modifier.sepia(outputpath, show) # makes a sepia filter image
 modifier.sharpen(outputpath, show) # makes a sharpened image
 modifier.average(outputpath, show) # makes a new image which is the average color of the image
 modifier.halftone(outputpath, show) # makes a halftone image
+modifier.primary(outputpath, show) # makes a primary image
+modifier.dither(outputpath, show) # makes a dither filter image
 ```
 
 **Supporting Class Methods:**
@@ -508,4 +514,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 11:28AM</sub>
+<sub>This page was last edited on 02/05/21 @ 1:22PM</sub>
