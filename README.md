@@ -29,12 +29,12 @@ Sepia Image: <br>
 
 Modifier must be initialized with the input file of the image. Images must end in `.jpg` or `.JPG`. If using a `.png`, use the given `Modifier.to_jpeg(filename)` method.
 
-Initializing a Modifier:
+**Initializing a Modifier:**
 ```py
 modifier = Modifier('test.jpg')
 ```
 
-Methods:
+**Methods:**
 
 All methods take in the arguments of `self` (the instance), and can take the optional arguments of `outputpath` (the output file name and directory), and `show` a boolean that, if `True`, will display the image on finish. All methods return a new `Modifier` instance pointing towards the output file.
 
@@ -49,14 +49,14 @@ modifier.greyscale(outputpath, show) # makes a grayscale image, alias to graysca
 modifier.sepia(outputpath, show) # makes a sepia filter image
 ```
 
-Supporting Class Methods:
+**Supporting Class Methods:**
 
 ```py
 Modifier.to_jpeg(filepath) # saves a new .jpg version of a .png image from the given filepath 
 Modifier.is_compatible(filepath) # returns true if this filepath is .jpg or .JPG
 ```
 
-Error Handling:
+**Error Handling:**
 
 Illegal filepaths (i.e. filepaths that are not `.jpg` or `.JPG`) raise an `IllegalExtensionError`. This occurs whenever a file path does not meet its methods necessary filepath criteria. 
 
@@ -485,4 +485,4 @@ Important Recommendations
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 8:56PM</sub>
+<sub>This page was last edited on 02/04/21 @ 8:57PM</sub>
