@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images
 
-#### The Current Stable Release Is Version 1.0: [V1.0](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.0)
+#### The Current Stable Release Is Version 1.0: [[V1.0]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.0)
 
 ___
 
@@ -506,4 +506,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 9:07PM</sub>
+<sub>This page was last edited on 02/04/21 @ 9:08PM</sub>
