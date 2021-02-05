@@ -2,11 +2,15 @@
 
 A python implementation of the Pillow (PIL) library that modifies images
 
+___
+
 ### Table of Contents
 
 1. [Image Modifications](#image-modifications)
 2. [Code](#code)
 3. [License](#license)
+
+___
 
 ### Image Modifications
 
@@ -24,6 +28,8 @@ Grayscale: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testgrayscale.jpg" height="250" width="307" alt="Grayscale" /> <br>
 Sepia Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsepia.jpg" height="250" width="307" alt="Sepia" /> <br>
+
+___
 
 ### Code
 
@@ -64,6 +70,8 @@ As of right now, `IllegalExtensionError`'s are raised in the following situation
 
 - Modifier class constructor if input file path is not a `.jpg`
 - In `to_jpeg` if the input file path is not a `.png`
+
+___
 
 ### License
 
@@ -485,4 +493,4 @@ Important Recommendations
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 8:57PM</sub>
+<sub>This page was last edited on 02/04/21 @ 8:58PM</sub>
