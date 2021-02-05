@@ -2,9 +2,9 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 1.2: [[V1.2]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.2)
+#### The Current Stable Release Is Version 2.0: [[V2.0]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.0)
 
-:exclamation: PNG Support Is Incoming! For Now, Continue To Use JPG Files And `to_jpeg` :D
+:exclamation: PNG Support Is Here In Version 2.0! DeprecationWarnings have been placed for `to_jpeg`, `IllegalExtensionError`, and `is_compatible` in the module; They will be removed soon!
 
 ___
 
@@ -69,19 +69,12 @@ modifier.halftone(outputpath, show) # makes a halftone image
 
 **Supporting Class Methods:**
 
+:exclamation: Both of the methods below are deprecated.
+
 ```py
 Modifier.to_jpeg(filepath) # saves a new .jpg version of a .png image from the given filepath 
 Modifier.is_compatible(filepath) # returns true if this filepath is .jpg or .JPG
 ```
-
-**Error Handling:**
-
-Illegal filepaths (i.e. filepaths that are not `.jpg` or `.JPG`) raise an `IllegalExtensionError`. This occurs whenever a file path does not meet its methods necessary filepath criteria. 
-
-As of right now, `IllegalExtensionError`'s are raised in the following situations:
-
-- Modifier class constructor if input file path is not a `.jpg`
-- In `to_jpeg` if the input file path is not a `.png`
 
 ___
 
@@ -515,4 +508,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 10:52AM</sub>
+<sub>This page was last edited on 02/05/21 @ 11:27AM</sub>
