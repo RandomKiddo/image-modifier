@@ -9,8 +9,7 @@ A python implementation of the Pillow (PIL) library that modifies images
 
 ### Image Modifications
 
-<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/test.JPG" height="500px" widt"613px" /> Standard Image <br>
-
+![Normal](https://github.com/RandomKiddo/image-modifier/blob/main/Examples/test.JPG =613x500)
 
 ### License
 
