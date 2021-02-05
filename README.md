@@ -5,11 +5,65 @@ A python implementation of the Pillow (PIL) library that modifies images
 ### Table of Contents
 
 1. [Image Modifications](#image-modifications)
-2. [License](#license)
+2. [Code](#code)
+3. [License](#license)
 
 ### Image Modifications
 
-![Normal](https://github.com/RandomKiddo/image-modifier/blob/main/Examples/test.JPG =613x500)
+Normal Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/test.JPG" height="250" width="307" alt="Normal" /> <br>
+Negative Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testnegate.jpg" height="250" width="307" alt="Negative" /> <br>
+Mild Blur Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testblur.jpg" height="250" width="307" alt="Mild Blur" /> <br>
+Mirrored Vertical Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testmirrorvertical.jpg" height="250" width="307" alt="Mirrored Vertical" /> <br>
+Mirrored Horizontal Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testmirrorhorizontal.jpg" height="250" width="307" alt="Mirrored Horizontal" /> <br>
+Grayscale: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testgrayscale.jpg" height="250" width="307" alt="Grayscale" /> <br>
+Sepia Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsepia.jpg" height="250" width="307" alt="Sepia" /> <br>
+
+### Code
+
+Modifier must be initialized with the input file of the image. Images must end in `.jpg` or `.JPG`. If using a `.png`, use the given `Modifier.to_jpeg(filename)` method.
+
+Initializing a Modifier:
+```py
+modifier = Modifier('test.jpg')
+```
+
+Methods:
+
+All methods take in the arguments of `self` (the instance), and can take the optional arguments of `outputpath` (the output file name and directory), and `show` a boolean that, if `True`, will display the image on finish. All methods return a new `Modifier` instance pointing towards the output file.
+
+```py
+modifier.negative(outputpath, show) # make a negative image
+modifier.invert(outputpath, show) # make a negative image, alias to negative()
+modifier.blur(outputpath, show) # makes a mild blur image
+modifier.mirror_vertical(outputpath, show) # makes a vertically mirrored image
+modifier.mirror_horizontal(outputpath, show) # makes a horizontally mirrored image
+modifier.grayscale(outputpath, show) # makes a grayscale image
+modifier.greyscale(outputpath, show) # makes a grayscale image, alias to grayscale()
+modifier.sepia(outputpath, show) # makes a sepia filter image
+```
+
+Supporting Class Methods:
+
+```py
+Modifier.to_jpeg(filepath) # saves a new .jpg version of a .png image from the given filepath 
+Modifier.is_compatible(filepath) # returns true if this filepath is .jpg or .JPG
+```
+
+Error Handling:
+
+Illegal filepaths (i.e. filepaths that are not `.jpg` or `.JPG`) raise an `IllegalExtensionError`. This occurs whenever a file path does not meet its methods necessary filepath criteria. 
+
+As of right now, `IllegalExtensionError`'s are raised in the following situations:
+
+- Modifier class constructor if input file path is not a `.jpg`
+- In `to_jpeg` if the input file path is not a `.png`
 
 ### License
 
@@ -431,4 +485,4 @@ Important Recommendations
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 8:34PM</sub>
+<sub>This page was last edited on 02/04/21 @ 8:56PM</sub>
