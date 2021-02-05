@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 1.0: [[V1.0]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.0)
+#### The Current Stable Release Is Version 1.1: [[V1.1]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.1)
 
 ___
 
@@ -31,6 +31,10 @@ Grayscale: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testgrayscale.jpg" height="250" width="307" alt="Grayscale" /> <br>
 Sepia Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsepia.jpg" height="250" width="307" alt="Sepia" /> <br>
+Sharpen Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsharpen.jpg" height="250" width="307" alt="Sharpen" /> <br>
+Average Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testaverage.jpg" height="250" width="307" alt="Average" /> <br>
 
 ___
 
@@ -56,6 +60,8 @@ modifier.mirror_horizontal(outputpath, show) # makes a horizontally mirrored ima
 modifier.grayscale(outputpath, show) # makes a grayscale image
 modifier.greyscale(outputpath, show) # makes a grayscale image, alias to grayscale()
 modifier.sepia(outputpath, show) # makes a sepia filter image
+modifier.sharpen(outputpath, show) # makes a sharpened image
+modifier.average(outputpath, show) # makes a new image which is the average color of the image
 ```
 
 **Supporting Class Methods:**
@@ -506,4 +512,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 9:08PM</sub>
+<sub>This page was last edited on 02/04/21 @ 9:57PM</sub>
