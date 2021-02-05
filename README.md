@@ -78,6 +78,8 @@ ___
 
 Archived source code can be found in the `All Versions` folder. The source code file has been renamed with a suffix stating its version. For example, the source code for Version 1.0 would be `modifier_1.0.py`. In the distribution releases, the file is not named this way, and stays `modifier.py`.
 
+It is recommended to download the distribution version from the `Release` section, rather than dowloading in the `All Versions` folder. The folder is there to log changes from version to version, but can be used if one wishes too.
+
 ___
 
 ### License
@@ -502,4 +504,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 9:03PM</sub>
+<sub>This page was last edited on 02/04/21 @ 9:05PM</sub>
