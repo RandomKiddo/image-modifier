@@ -2,7 +2,9 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 1.1: [[V1.1]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.1)
+#### The Current Stable Release Is Version 1.2: [[V1.2]](https://github.com/RandomKiddo/image-modifier/releases/tag/v1.2)
+
+:exclamation: PNG Support Is Incoming! For Now, Continue To Use JPG Files And `to_jpeg` :D
 
 ___
 
@@ -35,6 +37,8 @@ Sharpen Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsharpen.jpg" height="250" width="307" alt="Sharpen" /> <br>
 Average Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testaverage.jpg" height="250" width="307" alt="Average" /> <br>
+Halftone Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testhalftone.jpg" height="250" width="307" alt="Halftone" /> <br>
 
 ___
 
@@ -52,16 +56,15 @@ modifier = Modifier('test.jpg')
 All methods take in the arguments of `self` (the instance), and can take the optional arguments of `outputpath` (the output file name and directory), and `show` a boolean that, if `True`, will display the image on finish. All methods return a new `Modifier` instance pointing towards the output file.
 
 ```py
-modifier.negative(outputpath, show) # make a negative image
-modifier.invert(outputpath, show) # make a negative image, alias to negative()
+modifier.negative(outputpath, show) # make a negative image, aliases: invert
 modifier.blur(outputpath, show) # makes a mild blur image
 modifier.mirror_vertical(outputpath, show) # makes a vertically mirrored image
 modifier.mirror_horizontal(outputpath, show) # makes a horizontally mirrored image
-modifier.grayscale(outputpath, show) # makes a grayscale image
-modifier.greyscale(outputpath, show) # makes a grayscale image, alias to grayscale()
+modifier.grayscale(outputpath, show) # makes a grayscale image, aliases: greyscale
 modifier.sepia(outputpath, show) # makes a sepia filter image
 modifier.sharpen(outputpath, show) # makes a sharpened image
 modifier.average(outputpath, show) # makes a new image which is the average color of the image
+modifier.halftone(outputpath, show) # makes a halftone image
 ```
 
 **Supporting Class Methods:**
@@ -512,4 +515,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 9:57PM</sub>
+<sub>This page was last edited on 02/05/21 @ 10:52AM</sub>
