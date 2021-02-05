@@ -44,7 +44,7 @@ ___
 
 ### Code
 
-Modifier must be initialized with the input file of the image. Images must end in `.jpg` or `.JPG`. If using a `.png`, use the given `Modifier.to_jpeg(filename)` method.
+Modifier must be initialized with the input file of the image, and must include the file extension (i.e. `.jpg` or `.png`)
 
 **Initializing a Modifier:**
 ```py
@@ -508,4 +508,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 11:27AM</sub>
+<sub>This page was last edited on 02/05/21 @ 11:28AM</sub>
