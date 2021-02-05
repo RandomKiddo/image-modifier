@@ -329,6 +329,3 @@ class IllegalExtensionError(Exception):
     def __str__(self):
         warnings.warn('In Version 2.0, this class is deprecated')
         return self.errmessage
-
-m = Modifier('test.jpg')
-m.dither('testdither.jpg')
