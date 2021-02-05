@@ -2,9 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.1: [[V2.1]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.1)
-
-:exclamation: PNG Support Is Here In Version 2.0 And Up! DeprecationWarnings have been placed for `to_jpeg`, `IllegalExtensionError`, and `is_compatible` in the module; They will be removed soon!
+#### The Current Stable Release Is Version 2.2: [[V2.2]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.2)
 
 ___
 
@@ -71,15 +69,6 @@ modifier.average(outputpath, show) # makes a new image which is the average colo
 modifier.halftone(outputpath, show) # makes a halftone image
 modifier.primary(outputpath, show) # makes a primary image
 modifier.dither(outputpath, show) # makes a dither filter image
-```
-
-**Supporting Class Methods:**
-
-:exclamation: Both of the methods below are deprecated.
-
-```py
-Modifier.to_jpeg(filepath) # saves a new .jpg version of a .png image from the given filepath 
-Modifier.is_compatible(filepath) # returns true if this filepath is .jpg or .JPG
 ```
 
 ___
@@ -514,4 +503,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 1:22PM</sub>
+<sub>This page was last edited on 02/05/21 @ 2:09PM</sub>
