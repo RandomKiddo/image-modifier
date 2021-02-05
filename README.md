@@ -8,7 +8,8 @@ ___
 
 1. [Image Modifications](#image-modifications)
 2. [Code](#code)
-3. [License](#license)
+3. [Archived Source Code]
+4. [License](#license)
 
 ___
 
@@ -70,6 +71,12 @@ As of right now, `IllegalExtensionError`'s are raised in the following situation
 
 - Modifier class constructor if input file path is not a `.jpg`
 - In `to_jpeg` if the input file path is not a `.png`
+
+___
+
+### Archived Source Code
+
+Archived source code can be found in the `All Versions` folder. The source code file has been renamed with a suffix stating its version. For example, the source code for Version 1.0 would be `modifier_1.0.py`. In the distribution releases, the file is not named this way, and stays `modifier.py`.
 
 ___
 
@@ -495,4 +502,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/04/21 @ 8:58PM</sub>
+<sub>This page was last edited on 02/04/21 @ 9:01PM</sub>
