@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.2: [[V2.2]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.2)
+#### The Current Stable Release Is Version 2.3: [[V2.3]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.3)
 
 ___
 
@@ -41,6 +41,10 @@ Primary Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testprimary.jpg" height="250" width="307" alt="Primary" /> <br>
 Dither Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdither.jpg" height="250" width="307" alt="Dither" /> <br>
+Recolored Image (+100r, -100g, -100b): <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testrecolor.jpg" height="250" width="307" alt="Recolored" /> <br>
+Mild Tint Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testtint.jpg" height="250" width="307" alt="Mild Tint" /> <br>
 
 ___
 
@@ -69,6 +73,8 @@ modifier.average(outputpath, show) # makes a new image which is the average colo
 modifier.halftone(outputpath, show) # makes a halftone image
 modifier.primary(outputpath, show) # makes a primary image
 modifier.dither(outputpath, show) # makes a dither filter image
+modifier.recolor(outputpath, show, dr, dg, db) # makes a recolored image, editing each pixel's RGB by dr, dg, and db (either + or -)
+modifier.tint(outputpath, show) # makes a mildly tinted image
 ```
 
 ___
@@ -503,4 +509,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 3:21PM</sub>
+<sub>This page was last edited on 02/05/21 @ 8:16PM</sub>
