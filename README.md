@@ -9,7 +9,8 @@ ___
 ### Table of Contents
 
 1. [Image Modifications](#image-modifications)
-2. [Code](#code)
+2. [Dependencies](#dependencies)
+3. [Code](#code)
 3. [All Versions Source Code](#all-versions-source-code)
 4. [License](#license)
 
@@ -48,6 +49,14 @@ Mild Tint Image: <br>
 
 ___
 
+### Dependencies
+
+Currently, this image modifier has dependencies to the PyPI packages:
+- `Pillow` (aka `PIL`)
+- `warnings`
+
+___
+
 ### Code
 
 Modifier must be initialized with the input file of the image, and must include the file extension (i.e. `.jpg` or `.png`)
@@ -83,7 +92,7 @@ ___
 
 Archived source code can be found in the `All Versions` folder. The source code file has been renamed with a suffix stating its version. For example, the source code for Version 1.0 would be `modifier_1.0.py`. In the distribution releases, the file is not named this way, and stays `modifier.py`.
 
-It is recommended to download the distribution version from the `Release` section, rather than dowloading in the `All Versions` folder. The folder is there to log changes from version to version, but can be used if one wishes too.
+It is recommended to download the distribution version from the `Release` section, rather than dowloading in the `All Versions` folder. The folder is there to log changes from version to version, but can be used if one wishes to.
 
 ___
 
@@ -509,4 +518,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/05/21 @ 8:16PM</sub>
+<sub>This page was last edited on 02/05/21 @ 9:10PM</sub>
