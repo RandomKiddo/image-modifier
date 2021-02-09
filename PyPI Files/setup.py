@@ -1,6 +1,12 @@
 from setuptools import setup
 
-ld = None
+rst = []
+with open('/Users/firsttry/Desktop/Image/README.rst', 'r') as file:
+    for line in file:
+        rst.append(str(line))
+ld = ''
+for i in rst:
+    ld += i + '\n'
 
 setup(
     name = 'image-modifier',
