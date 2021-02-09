@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.3: [[V2.3]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.3)
+#### The Current Stable Release Is Version 2.4: [[V2.4]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.4)
 
 ___
 
@@ -46,6 +46,8 @@ Recolored Image (+100r, -100g, -100b): <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testrecolor.jpg" height="250" width="307" alt="Recolored" /> <br>
 Mild Tint Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testtint.jpg" height="250" width="307" alt="Mild Tint" /> <br>
+Rotated Image (+45˚): <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testrotate.jpg" height="250" width="307" alt="Rotated" /> <br>
 
 ___
 
@@ -84,6 +86,7 @@ modifier.primary(outputpath, show) # makes a primary image
 modifier.dither(outputpath, show) # makes a dither filter image
 modifier.recolor(outputpath, show, dr, dg, db) # makes a recolored image, editing each pixel's RGB by dr, dg, and db (either + or -)
 modifier.tint(outputpath, show) # makes a mildly tinted image
+modifier.rotate(outputpath, show, degree) # makes a rotated image, rotated the given degree values from the x-axis (defaults to 90˚)
 ```
 
 ___
@@ -518,4 +521,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/08/21 @ 10:00PM</sub>
+<sub>This page was last edited on 02/08/21 @ 10:25PM</sub>
