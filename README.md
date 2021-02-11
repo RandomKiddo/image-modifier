@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.5: [[V2.5]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.5)
+#### The Current Stable Release Is Version 2.6: [[V2.6]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.6)
 
 ___
 
@@ -50,14 +50,19 @@ Rotated Image (+45˚): <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testrotate.jpg" height="250" width="307" alt="Rotated" /> <br>
 Mirrored Diagonal Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testmirrordiagonal.jpg" height="250" width="307" alt="Mirrored Diagonal" /> <br>
+Edge Detection Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdetectedges.jpg" height="250" width="307" alt="Edge Detection" /> <br>
 
 ___
 
 ### Dependencies
 
 Currently, this image modifier has dependencies to the PyPI packages:
-- `Pillow` (aka `PIL`)
+- `pillow` (aka `PIL`)
 - `warnings`
+- `numpy`
+- `matplotlib`
+- `opencv-python` (aka `cv2`)
 
 ___
 
@@ -90,6 +95,7 @@ modifier.recolor(outputpath, show, dr, dg, db) # makes a recolored image, editin
 modifier.tint(outputpath, show) # makes a mildly tinted image
 modifier.rotate(outputpath, show, degree) # makes a rotated image, rotated the given degree values from the x-axis (defaults to 90˚)
 modifier.mirror_diagonal(outputpath, show) # makes a diagonally mirrored image
+modifier.detect_edges(outputpath, show) # makes an image that shows only edges
 ```
 
 ___
@@ -524,4 +530,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/09/21 @ 9:07PM</sub>
+<sub>This page was last edited on 02/11/21 @ 2:25PM</sub>
