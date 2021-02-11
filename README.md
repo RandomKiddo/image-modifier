@@ -3,6 +3,7 @@
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds.
 
 #### The Current Stable Release Is Version 2.6: [[V2.6]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.6)
+#### The Current Unstable Release Is [...]: :exclamation: There Is No Current Unstable Release
 
 ___
 
@@ -530,4 +531,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/11/21 @ 2:24PM</sub>
+<sub>This page was last edited on 02/11/21 @ 2:25PM</sub>
