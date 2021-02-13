@@ -2,7 +2,7 @@
 
 **Will this package ever be added to PyPI?**
 
-The future is uncertain. In Version 3.0, `image-modifier` may or may not be added to PyPI as a python3 package. However, there is no guarantee for this to occur, as there is not much demand to have this distribution on PyPI. Until then, continue to download the `modifier.py` binary and then use it. Also, `image-modifier` has many dependencies, and thus would cause issues on PyPI importation. It is being considered, but there is no guarantee for this to happen.
+The future is uncertain. When Version 3.0 is released, `image-modifier` may be added to PyPI as a python3 package. However, there is no guarantee for this to occur, as there is not much demand to have this distribution on PyPI. Until then, continue to download the `modifier.py` binary and then use it. Also, `image-modifier` has many dependencies, and thus would cause issues on PyPI importation. It is being considered, but there is no guarantee for this to happen.
 
 ___
 
