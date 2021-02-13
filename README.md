@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds.
 
-#### The Current Stable Release Is Version 2.7: [[V2.7]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.7)
+#### The Current Stable Release Is Version 2.8: [[V2.8]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.8)
 
 ___
 
@@ -54,6 +54,8 @@ Edge Detection Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdetectedges.jpg" height="250" width="307" alt="Edge Detection" /> <br>
 Deepfry Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdeepfry.jpg" height="250" width="307" alt="Deepfry" /> <br>
+Emboss Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testemboss.jpg" height="250" width="307" alt="Emboss" /> <br>
 
 ___
 
@@ -99,6 +101,7 @@ modifier.rotate(outputpath, show, degree) # makes a rotated image, rotated the g
 modifier.mirror_diagonal(outputpath, show) # makes a diagonally mirrored image
 modifier.detect_edges(outputpath, show) # makes an image that shows only edges
 modifier.deepfry(outputpath, show) # makes a deepfried image
+modifier.emboss(outputpath, show) # makes an emboss image
 ```
 
 ___
@@ -533,4 +536,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/11/21 @ 7:13PM</sub>
+<sub>This page was last edited on 02/12/21 @ 11:01PM</sub>
