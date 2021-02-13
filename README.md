@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds. Also note that changes in example images shown are more noticeable in-person than shown in the README.
 
-#### The Current Stable Release Is Version 2.9: [[V2.9]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.9)
+#### The Current Stable Release Is Version 2.10: [[V2.10]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.10)
 
 ___
 
@@ -60,6 +60,8 @@ Warm Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testwarm.jpg" height="250" width="307" alt="Warm" /> <br>
 Cool Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testcool.jpg" height="250" width="307" alt="Cool" /> <br>
+Brightness Image (+50): <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testbrightness.jpg" height="250" width="307" alt="Brightness" /> <br>
 
 ___
 
@@ -109,6 +111,7 @@ modifier.deepfry(outputpath, show) # makes a deepfried image
 modifier.emboss(outputpath, show) # makes an emboss image
 modifier.warm(outputpath, show) # makes a warm image
 modifier.cool(outputpath, show) # makes a cool image
+modifier.brightness(outputpath, show, level) # makes a brightened image by a factor of level (either + or -)
 ```
 
 ___
@@ -543,4 +546,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/12/21 @ 11:23PM</sub>
+<sub>This page was last edited on 02/13/21 @ 12:25PM</sub>
