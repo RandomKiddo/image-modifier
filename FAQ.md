@@ -11,4 +11,4 @@ ___
 
 You have a couple options here. If you wish for the enhancement to be on this repository, you can file an issue under the `Issues` tab using the template for a 
 feature request, and it could be considered. On the other hand, you may fork this repository and add the feature for yourself, as long as it follows the guidelines
-under the `LaTex Project Public License v1.3c`
+under the `LaTeX Project Public License v1.3c`
