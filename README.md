@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds. Also note that changes in example images shown are more noticeable in-person than shown in the README.
 
-#### The Current Stable Release Is Version 2.10: [[V2.10]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.10)
+#### The Current Stable Release Is Version 2.11: [[V2.11]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.11)
 
 ___
 
@@ -62,6 +62,10 @@ Cool Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testcool.jpg" height="250" width="307" alt="Cool" /> <br>
 Brightness Image (+50): <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testbrightness.jpg" height="250" width="307" alt="Brightness" /> <br>
+White Border Image (20px): <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testwhiteborder.jpg" height="250" width="307" alt="Black Border" /> <br>
+Black Border Image (20px): <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testblackborder.jpg" height="250" width="307" alt="Black Border" /> <br>
 
 ___
 
@@ -71,7 +75,6 @@ Currently, this image modifier has dependencies to the PyPI packages:
 - `pillow` (aka `PIL`)
 - `warnings`
 - `numpy`
-- `matplotlib`
 - `opencv-python` (aka `cv2`)
 - `scipy`
 
@@ -83,7 +86,7 @@ Modifier must be initialized with the input file of the image, and must include 
 
 **Initializing a Modifier:**
 ```py
-modifier = Modifier('test.jpg')
+m = Modifier('test.jpg')
 ```
 
 **Methods:**
@@ -91,27 +94,29 @@ modifier = Modifier('test.jpg')
 All methods take in the arguments of `self` (the instance), and can take the optional arguments of `outputpath` (the output file name and directory), and `show` a boolean that, if `True`, will display the image on finish. All methods return a new `Modifier` instance pointing towards the output file.
 
 ```py
-modifier.negative(outputpath, show) # make a negative image, aliases: invert
-modifier.blur(outputpath, show) # makes a mild blur image
-modifier.mirror_vertical(outputpath, show) # makes a vertically mirrored image
-modifier.mirror_horizontal(outputpath, show) # makes a horizontally mirrored image
-modifier.grayscale(outputpath, show) # makes a grayscale image, aliases: greyscale
-modifier.sepia(outputpath, show) # makes a sepia filter image
-modifier.sharpen(outputpath, show) # makes a sharpened image
-modifier.average(outputpath, show) # makes a new image which is the average color of the image
-modifier.halftone(outputpath, show) # makes a halftone image
-modifier.primary(outputpath, show) # makes a primary image
-modifier.dither(outputpath, show) # makes a dither filter image
-modifier.recolor(outputpath, show, dr, dg, db) # makes a recolored image, editing each pixel's RGB by dr, dg, and db (either + or -)
-modifier.tint(outputpath, show) # makes a mildly tinted image
-modifier.rotate(outputpath, show, degree) # makes a rotated image, rotated the given degree values from the x-axis (defaults to 90˚)
-modifier.mirror_diagonal(outputpath, show) # makes a diagonally mirrored image
-modifier.detect_edges(outputpath, show) # makes an image that shows only edges
-modifier.deepfry(outputpath, show) # makes a deepfried image
-modifier.emboss(outputpath, show) # makes an emboss image
-modifier.warm(outputpath, show) # makes a warm image
-modifier.cool(outputpath, show) # makes a cool image
-modifier.brightness(outputpath, show, level) # makes a brightened image by a factor of level (either + or -)
+m.negative(outputpath, show) # make a negative image, aliases: invert
+m.blur(outputpath, show) # makes a mild blur image, aliases: gaussian_blur
+m.mirror_vertical(outputpath, show) # makes a vertically mirrored image
+m.mirror_horizontal(outputpath, show) # makes a horizontally mirrored image
+m.grayscale(outputpath, show) # makes a grayscale image, aliases: greyscale
+m.sepia(outputpath, show) # makes a sepia filter image
+m.sharpen(outputpath, show) # makes a sharpened image
+m.average(outputpath, show) # makes a new image which is the average color of the image
+m.halftone(outputpath, show) # makes a halftone image
+m.primary(outputpath, show) # makes a primary image
+m.dither(outputpath, show) # makes a dither filter image
+m.recolor(outputpath, show, dr, dg, db) # makes a recolored image, editing each pixel's RGB by dr, dg, and db (either + or -)
+m.tint(outputpath, show) # makes a mildly tinted image
+m.rotate(outputpath, show, degree) # makes a rotated image, rotated the given degree values from the x-axis (defaults to 90˚)
+m.mirror_diagonal(outputpath, show) # makes a diagonally mirrored image
+m.detect_edges(outputpath, show) # makes an image that shows only edges
+m.deepfry(outputpath, show) # makes a deepfried image
+m.emboss(outputpath, show) # makes an emboss image
+m.warm(outputpath, show) # makes a warm image
+m.cool(outputpath, show) # makes a cool image
+m.brightness(outputpath, show, level) # makes a brightened image by a factor of level (either + or -)
+m.black_border(outputpath, show, width) # makes a black border image to width parameter
+m.white_border(outputpath, show, width) # makes a white border image to width parameter
 ```
 
 ___
@@ -546,4 +551,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/13/21 @ 12:25PM</sub>
+<sub>This page was last edited on 02/13/21 @ 12:47PM</sub>
