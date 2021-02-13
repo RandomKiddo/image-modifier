@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds. Also note that changes in example images shown are more noticeable in-person than shown in the README.
 
-#### The Current Stable Release Is Version 2.8: [[V2.8]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.8)
+#### The Current Stable Release Is Version 2.9: [[V2.9]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.9)
 
 ___
 
@@ -56,6 +56,10 @@ Deepfry Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testdeepfry.jpg" height="250" width="307" alt="Deepfry" /> <br>
 Emboss Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testemboss.jpg" height="250" width="307" alt="Emboss" /> <br>
+Warm Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testwarm.jpg" height="250" width="307" alt="Warm" /> <br>
+Cool Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testcool.jpg" height="250" width="307" alt="Cool" /> <br>
 
 ___
 
@@ -67,6 +71,7 @@ Currently, this image modifier has dependencies to the PyPI packages:
 - `numpy`
 - `matplotlib`
 - `opencv-python` (aka `cv2`)
+- `scipy`
 
 ___
 
@@ -102,6 +107,8 @@ modifier.mirror_diagonal(outputpath, show) # makes a diagonally mirrored image
 modifier.detect_edges(outputpath, show) # makes an image that shows only edges
 modifier.deepfry(outputpath, show) # makes a deepfried image
 modifier.emboss(outputpath, show) # makes an emboss image
+modifier.warm(outputpath, show) # makes a warm image
+modifier.cool(outputpath, show) # makes a cool image
 ```
 
 ___
@@ -536,4 +543,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/12/21 @ 11:05PM</sub>
+<sub>This page was last edited on 02/12/21 @ 11:23PM</sub>
