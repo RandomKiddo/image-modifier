@@ -22,8 +22,6 @@ Normal Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/test.JPG" height="250" width="307" alt="Normal" /> <br>
 Negative Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testnegate.jpg" height="250" width="307" alt="Negative" /> <br>
-Mild Blur Image: <br>
-<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testblur.jpg" height="250" width="307" alt="Mild Blur" /> <br>
 Mirrored Vertical Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testmirrorvertical.jpg" height="250" width="307" alt="Mirrored Vertical" /> <br>
 Mirrored Horizontal Image: <br>
