@@ -32,6 +32,8 @@ Grayscale: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testgrayscale.jpg" height="250" width="307" alt="Grayscale" /> <br>
 Sepia Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsepia.jpg" height="250" width="307" alt="Sepia" /> <br>
+Sharpen Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testsharpen.jpg" height="250" width="307" alt="Sharpen" /> <br>
 Average Image: <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testaverage.jpg" height="250" width="307" alt="Average" /> <br>
 Halftone Image: <br>
@@ -534,4 +536,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/12/21 @ 11:03PM</sub>
+<sub>This page was last edited on 02/12/21 @ 11:05PM</sub>
