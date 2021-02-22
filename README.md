@@ -2,7 +2,7 @@
 
 A python implementation of the Pillow (PIL) library that modifies images, licensed under the LaTeX Project Public License v1.3c. Note that the image modification could take some time up to around 30 seconds. Also note that changes in example images shown are more noticeable in-person than shown in the README.
 
-#### The Current Stable Release Is Version 2.11: [[V2.11]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.11)
+#### The Current Stable Release Is Version 2.12: [[V2.12]](https://github.com/RandomKiddo/image-modifier/releases/tag/v2.12)
 
 ___
 
@@ -66,6 +66,8 @@ White Border Image (20px): <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testwhiteborder.jpg" height="250" width="307" alt="Black Border" /> <br>
 Black Border Image (20px): <br>
 <img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testblackborder.jpg" height="250" width="307" alt="Black Border" /> <br>
+Cartoon Image: <br>
+<img src="https://github.com/RandomKiddo/image-modifier/blob/main/Examples/testcartoon.jpg" height="250" width="307" alt="Cartoon" /> <br>
 
 ___
 
@@ -117,6 +119,7 @@ m.cool(outputpath, show) # makes a cool image
 m.brightness(outputpath, show, level) # makes a brightened image by a factor of level (either + or -)
 m.black_border(outputpath, show, width) # makes a black border image to width parameter
 m.white_border(outputpath, show, width) # makes a white border image to width parameter
+m.cartoon(outputpath, show) # makes a cartoon image
 ```
 
 ___
@@ -551,4 +554,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/13/21 @ 12:47PM</sub>
+<sub>This page was last edited on 02/22/21 @ 5:04PM</sub>
