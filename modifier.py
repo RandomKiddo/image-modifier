@@ -4,6 +4,21 @@ import cv2
 import numpy as np
 from scipy.interpolate import UnivariateSpline as uspline
 
+'''
+modifier.py
+Copyright 2021 RandomKiddo
+
+This work is license under the LaTeX Project Public License v1.3c or newer.
+By the definition of this license, all work may be modified and distributed,
+as defined by the terms of the license.
+For more details, see: http://www.latex-project.org/lppl.txt
+
+This work has the LPPL maintenance status `maintained`
+The current maintainer of this work is RandomKiddo
+
+This work only consists of this python file and any example images created
+'''
+
 class Modifier:
     def __init__(self, inputpath: str):
         self.image = Image.open(inputpath)
