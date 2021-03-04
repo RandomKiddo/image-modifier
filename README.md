@@ -11,7 +11,6 @@ ___
 1. [Image Modifications](#image-modifications)
 2. [Dependencies](#dependencies)
 3. [Code](#code)
-3. [All Versions Source Code](#all-versions-source-code)
 4. [License](#license)
 
 ___
@@ -121,14 +120,6 @@ m.black_border(outputpath, show, width) # makes a black border image to width pa
 m.white_border(outputpath, show, width) # makes a white border image to width parameter
 m.cartoon(outputpath, show) # makes a cartoon image
 ```
-
-___
-
-### All Versions Source Code
-
-Archived source code can be found in the `All Versions` folder. The source code file has been renamed with a suffix stating its version. For example, the source code for Version 1.0 would be `modifier_1.0.py`. In the distribution releases, the file is not named this way, and stays `modifier.py`.
-
-It is recommended to download the distribution version from the `Release` section, rather than dowloading in the `All Versions` folder. The folder is there to log changes from version to version, but can be used if one wishes to.
 
 ___
 
@@ -554,4 +545,4 @@ ___
 
 [Back To Top](#)
 
-<sub>This page was last edited on 02/22/21 @ 5:04PM</sub>
+<sub>This page was last edited on 03/04/21 @ 5:13PM</sub>
